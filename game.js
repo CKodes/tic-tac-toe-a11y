@@ -60,9 +60,7 @@ function addButtons(e) {
           'horizontal',
           buttonElement.parentElement.attributes[2].value
         );
-        buttonElement.innerHTML = `${
-          circleTurn ? 'Place O symbol to' : 'Place X symbol to'
-        }
+        buttonElement.innerHTML = `${circleTurn ? 'Place O to' : 'Place X to'}
         ${buttonElement.attributes[1].value}
         ${buttonElement.attributes[2].value} `;
       }
@@ -158,9 +156,7 @@ function swapTurns() {
   for (var i = 0; i < cellBtn.length; i++) {
     // console.log(cellBtn[i].parentNode.attributes[1].value);
 
-    cellBtn[i].innerHTML = `${
-      circleTurn ? 'Place O symbol to' : 'Place X symbol to'
-    }
+    cellBtn[i].innerHTML = `${circleTurn ? 'Place O to' : 'Place X to'}
         ${cellBtn[i].parentNode.attributes[1].value}
         ${cellBtn[i].parentNode.attributes[2].value} `;
   }
