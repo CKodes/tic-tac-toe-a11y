@@ -337,6 +337,23 @@ img {
   background-color: var(--main-purple-color);
 }
 
+.action-button {
+  font-size: 0.8rem;
+  font-family: var(--main-font-family);
+  padding: 0.5rem 0.5rem;
+  text-align: center;
+  text-decoration: none;
+  color: var(--main-blue-color);
+  background: var(--main-white-color);
+  border-radius: 4px;
+  border-style: none;
+}
+
+.action-button:focus {
+  padding: 1rem;
+  border: 5px solid;
+}
+
 @media only screen and (max-width: 768px) {
   .mobile-only {
     display: flex;
