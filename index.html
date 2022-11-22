@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Viga&display=swap"
+      rel="stylesheet"
+    />
+    <script src="index.js"></script>
+    <title>Tic Tac Toe Game</title>
+  </head>
+  <body>
+    <div class="board" id="board">
+      <div id="emailForm" class="form-container">
+        <form
+          action="https://sheetdb.io/api/v1/cxropn6lu6n8d"
+          class="flex-column"
+          method="post"
+          id="playerEmailForm"
+          name="a11y-kopi"
+        >
+          <label for="playerEmail">Enter email to start game.</label>
+          <input type="email" name="data[name]" id="playerEmail" />
+
+          <button
+            class="submit-btn"
+            id="submitBtn"
+            type="submit"
+            onclick="startGame()"
+          >
+            Start Game
+          </button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
