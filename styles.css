@@ -153,6 +153,25 @@ body {
   background-color: var(--main-white-color);
 }
 
+.mobile-only {
+  display: none;
+  position: fixed;
+  font-family: var(--main-font-family);
+  text-align: center;
+  margin: auto;
+  padding: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(238, 238, 238);
+  justify-content: center;
+  align-items: center;
+  color: var(--main-black-color);
+  font-size: 3rem;
+  flex-direction: column;
+}
+
 .win-msg {
   display: none;
   position: fixed;
@@ -318,27 +337,8 @@ img {
   background-color: var(--main-purple-color);
 }
 
-.mobile-only {
-  display: none;
-}
-
 @media only screen and (max-width: 768px) {
   .mobile-only {
     display: flex;
-    position: fixed;
-    font-family: var(--main-font-family);
-    text-align: center;
-    margin: auto;
-    padding: auto;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(238, 238, 238);
-    justify-content: center;
-    align-items: center;
-    color: var(--main-black-color);
-    font-size: 3rem;
-    flex-direction: column;
   }
 }
